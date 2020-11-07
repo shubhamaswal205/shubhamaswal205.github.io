@@ -1,0 +1,280 @@
+html,body
+{
+  height: 100%;
+  margin: 0;
+  background-color: hsl(0, 0%, 95%);
+  font-family: cursive;
+}
+.leftcolor{
+  position:absolute;
+ float:left;
+ background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+ width: 35%;
+ height: 98%;
+ border-radius: 0px 0px 250px 250px;
+ left: -150px;
+}
+.mobile{
+  position: absolute;
+  box-sizing: border-box;
+  height:500px;
+  width:280px;
+  background-color: hsl(270, 20%, 96%);
+  border: 10px solid white;
+  border-radius: 25px;
+  margin-left: 220px;
+  margin-top: 65px;
+  z-index: 1;
+}
+.mobHead{
+  position: absolute;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+  width: 260px;
+  height: 90px;
+  border-radius: 25px 25px 0 0;
+}
+.camera{
+  position: absolute;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  left: 75px;
+  height: 20px;
+  width: 100px;
+}
+.headContent{
+ position: absolute;
+ box-sizing: border-box;
+ width: 260px;
+ height: 80px;
+ margin-top: 20px;
+}
+.fa-angle-left{
+  position:relative;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+img.manimg{
+  position: absolute;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 5px;
+  border: 2px solid white;
+}
+.name{
+  position: absolute;
+  margin-left: 78px;
+  margin-top: 18px;
+}
+.text{
+  position: absolute;
+  margin-top: 35px;
+  font-size: 12px;
+  color: hsl(276, 100%, 81%);
+}
+.fa-ellipsis-v{
+  margin-left: 220px;
+}
+.chat{
+  position: absolute;
+  margin-top: 85px;
+  font-size: 9px;
+  width: inherit;
+}
+.lchat1{
+  position: absolute;
+  float: left;
+  background-color: hsl(206, 6%, 79%);;
+  color: hsl(276, 55%, 52%);
+  margin-left: 5px;
+  width: 55%;
+  border: none;
+  border-radius: 5px 5px 5px 0;
+}
+.lchat2{
+  position: absolute;
+  background-color: hsl(206, 6%, 79%);
+  color: hsl(276, 55%, 52%);
+  margin-left: 5px;
+  margin-top: 40px;
+  width: 55%;
+  border: none;
+  border-radius: 5px 5px 5px 0;
+}
+.dog1{
+  position: absolute;
+    margin-left:125px;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+.dog2{
+  position: absolute;
+    margin-left:170px;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+.dog3{
+  position: absolute;
+    margin-left:215px;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+.rchat1{
+  position: absolute;
+  background-color: white;
+  color: hsl(271, 15%, 43%);
+  margin-left: 45%;
+  margin-top: 125px;
+  border: none;
+  border-radius: 5px 5px 0 5px;
+}
+.rchat2{
+  position: absolute;
+  background-color: white;
+  color: hsl(271, 15%, 43%);
+  margin-left: 65%;
+  margin-right: 0%;
+  margin-top: 155px;
+  border: none;
+  border-radius: 5px 5px 0 5px;
+}
+.lchat3{
+  position: absolute;
+  background-color: hsl(206, 6%, 79%);
+  color: hsl(276, 55%, 52%);
+  margin-left: 5px;
+  margin-top: 175px;
+  width: 55%;
+  border: none;
+  border-radius: 5px 5px 5px 0;
+}
+ .lchat4{
+   position: absolute;
+   float: left;
+   background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+   box-sizing: border-box;
+   color: white;
+   margin-left: 5px;
+   margin-top: 218px;
+   padding: 15px;
+   width: 65%;
+   border: none;
+   border-radius: 10px 10px 10px 0;
+ }
+ .lchat4  .lchattxt{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 3px;
+    vertical-align: middle;
+ }
+ .price{
+   position: absolute;
+   font-size: 15px;
+   vertical-align: middle;
+   margin-left: 35px;
+   /* margin-right: 40px; */
+   margin-top: -3px;
+ }
+ .lchat5{
+   position: absolute;
+   float: left;
+   background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+   box-sizing: border-box;
+   color: white;
+   margin-left: 5px;
+   margin-top: 270px;
+   padding: 15px;
+   width: 65%;
+   border: none;
+   border-radius: 10px 10px 10px 0;
+ }
+ .lchat5 .lchattxt{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 3px;
+    vertical-align: middle;
+ }
+ .lchat5 .price{
+   position: absolute;
+   font-size: 15px;
+   vertical-align: middle;
+   margin-left: 50px;
+   margin-top: -3px;
+ }
+ .msg{
+   position: absolute;
+   width: 250px;
+   background-color: white;
+   border-radius: 10px;
+   margin-top: 350px;
+   margin-left: 5px;
+ }
+ .msg .txt{
+   margin-left: 10px;
+   color: grey;
+ }
+ .btn1{
+   position: absolute;
+   border-radius: 50%;
+   margin-left: 220px;
+   margin-top: -27px;
+   background-color:  hsl(271, 36%, 24%);
+   color: white;
+ }
+.right{
+  position: absolute;
+   text-align:justify;
+   margin-left: 300px;
+   margin-top: 150px;
+}
+.txt{
+  margin-left:  300px;
+}
+
+.attribution { font-size: 11px; text-align: center;width: 100%}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width:425px) {
+  html,body
+  {
+    height: 100%;
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+    font-family: cursive;
+  }
+  .leftcolor{
+     float:left;
+     background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+     width: 500px;
+     height: 700px;
+     border-radius: 0px 0px 250px 250px;
+     left: -150px;
+  }
+  .mobile{
+    position: absolute;
+    box-sizing: border-box;
+    height:500px;
+    width:280px;
+    background-color: hsl(270, 20%, 96%);
+    border: 10px solid white;
+    border-radius: 25px;
+    margin-left: 220px;
+    margin-top: 65px;
+    z-index: 1;
+  }
+  .right{
+    position: absolute;
+     text-align: justify;
+     width: 450px;
+     height: 800px;
+     margin-left: 300px;
+     margin-top: 150px;
+  }
+  .txt{
+    position: static;
+    margin-left: -100px;
+    margin-top: 580px;
+  }
+}
